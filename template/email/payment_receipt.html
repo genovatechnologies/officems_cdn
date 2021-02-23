@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Payment Receipt</title>
+	<style type="text/css">
+		< !-- .outer table tr td p strong {
+			color: #000;
+		}
+
+		-->
+	</style>
+</head>
+
+<style type="text/css">
+	body {
+		padding: 0px;
+		margin: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+
+	.outer {
+		width: 800px;
+		height: auto;
+		float: left;
+		color: #039;
+	}
+
+	.outer table tr td p strong {
+		color: #000;
+	}
+</style>
+
+<body>
+	<div class="outer">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="24%"><img src="#logo" /></td>
+				<td width="18%">&nbsp;</td>
+				<td width="51%">&nbsp;</td>
+				<td width="7%">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="21">&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="color:#000;" height="154" align="left" valign="top"><strong>BILL FROM</strong><br />#company_address</td>
+				<td style="color:#000;" align="left" valign="top"><strong>BILL TO</strong><br />#clientname</td>
+				<td style="color:#000;" align="left" valign="top"><strong>DATE</strong><br /> #receiptdate</td>
+				<td>&nbsp;</td>
+			</tr>
+
+		</table>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+				</tr>
+				<tr>
+					<th height="20" style="background-color:#036; color: #FFF;"><strong>SL No</strong></th>
+					<th style="background-color:#036; color: #FFF;"><strong>DESCRIPTION</strong></th>
+					<th align="center" valign="middle" style="background-color:#036; color: #FFF;"><strong>QTY</strong></th>
+					<th align="center" valign="middle" style="background-color:#036; color: #FFF;"><strong>PRICE</strong></th>
+					<th align="center" valign="middle" style="background-color:#036; color: #FFF;"><strong>TOTAL</strong></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>&nbsp; 1</th>
+					<th>&nbsp; #description</th>
+					<th>&nbsp; #quantity</th>
+					<th>&nbsp; #price</th>
+					<th>&nbsp; #total</th>
+				</tr>
+			</tbody>
+		</table>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top: 50px">
+			<tr>
+				<td>&nbsp;</td>
+				<td colspan="4">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					#account_details
+				</td>
+				<td colspan="4">&nbsp;</td>
+			</tr>
+		</table>
+
+
+	</div>
+</body>
+
+</html>
